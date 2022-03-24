@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UF2SoundPlayer</string>
+    <string name="exit">Exit</string>
+    <string name="add">Add new Song</string>
+    <string name="thanks">Thank you, see you soon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="player">Audio player</string>
+    <string name="back">Back</string>
+    <string name="notyet">You do not have songs yet!</string>
+    <string name="addsong">Add Online Audio</string>
+    <string name="title">Title</string>
+    <string name="insertTitle">Insert title of the song</string>
+    <string name="url">Song Url</string>
+    <string name="insertUrl">Insert url of the song</string>
+    <string name="titleError">Title must be inserted</string>
+    <string name="urlError">Url must be inserted</string>
+    <string name="inserted">The song was inserted correctly</string>
+    <string name="deleted">The song was removed succesfully</string>
+    <string name="ups">The song url is wrong</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UF2SoundPlayer</string>
+    <string name="exit">Sortir</string>
+    <string name="add">Afegir nova cançó</string>
+    <string name="thanks">Gràcies, fins aviat!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="player">Reproductor de audio</string>
+    <string name="back">Enrere</string>
+    <string name="notyet">Encara no tens cançons!</string>
+    <string name="addsong">Afegeix una cançó</string>
+    <string name="title">Títol</string>
+    <string name="insertTitle">Inserta el títol de la cançó</string>
+    <string name="url">Url de la cançó</string>
+    <string name="insertUrl">Inserta la url de la cançó</string>
+    <string name="titleError">El títol deu ser insertat</string>
+    <string name="urlError">La url deu ser insertada</string>
+    <string name="inserted">La cançó s ha insertat correctament</string>
+    <string name="deleted">La cançó ha sigut borrada</string>
+    <string name="ups">La direcció de la cançó es incorrecta</string>
+</resources>

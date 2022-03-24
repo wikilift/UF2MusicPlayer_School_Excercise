@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.landingFragment">
+
+        <RelativeLayout
+            android:id="@+id/landingView"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/noPetsRegistered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="25dp"
+                android:text="@string/notyet"
+                android:textColor="@color/Crimson"
+                android:textSize="20sp"
+
+                android:textStyle="bold"
+                android:visibility="visible"
+
+                app:drawableBottomCompat="@drawable/ic_arrow_blue"
+                app:drawableTopCompat="@drawable/animal_wow"
+                tools:visibility="visible" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/play"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@+id/noPetsRegistered"
+                android:layout_alignEnd="@+id/noPetsRegistered"
+
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/add"
+                android:layout_centerInParent="true"
+                tools:layout_editor_absoluteX="302dp" />
+
+
+
+
+        </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSongs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:visibility="gone"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
